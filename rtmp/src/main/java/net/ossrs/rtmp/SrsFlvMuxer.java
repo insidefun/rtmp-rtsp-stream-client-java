@@ -534,7 +534,8 @@ public class SrsFlvMuxer {
 
       // 5.3.4.2.1 Syntax, H.264-AVC-ISO_IEC_14496-15.pdf, page 16
       // lengthSizeMinusOne, or NAL_unit_length, always use 4bytes size
-      int NAL_unit_length = frame.size;
+//      int NAL_unit_length = frame.size;
+      int NAL_unit_length = 225;
 
       // mux the avc NALU in "ISO Base Media File Format"
       // from H.264-AVC-ISO_IEC_14496-15.pdf, page 20
